@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $('.nav-item').on('click', function(){
+    $('.nav-item').on('click', function(event){
         $('.nav-item').each(function(){
             $(this).removeClass('active');
         });
 
-        $(this).addClass('active');            
+        $(this).addClass('active');          
     });
 });
